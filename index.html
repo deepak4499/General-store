@@ -1,98 +1,53 @@
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
-		<title>TECHNOVATE-2020</title>
-	</head>
-	<body>
-		<header class="flex1">
-			<div class="one">
-			<img class="i2" src="vasavi.jpeg" alt="images">
-			</div>
-			<div class="three">
-			<center><h1>VASAVI GENERAL STORE'S</h1></center>
-			<ul class="flex">
-				<li class="items"><a href="#">Home</a></li>
-				<li class="items"><a href="product.html">Products</a></li>
-				<li class="items"><a href="about.html">About Us</a></li>
-				<li class="items"><a href="form.html">Login</a></li>
-			</ul>
-			
-			<img class="i1" src="add2.jpeg" alt="shop">
-			<img class="i3" src="add3.gif">
-			</div>
-			<div class="one">
-			<img class="i4" src="shop2.jpeg">
-			</div>
-		</header>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>webpage.html</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	    
+    </head>
+	<body style="background-color: #80bfff;">
+		<header class="container-fluid">
+            <div class="row">
+                <div class="d-none d-lg-block col-md-2">
+			        <center><img class="rounded-circle" src="shop2.jpeg"></center>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="my-2 col-md-12">
+                            <center><h1>VASAVI GENERAL STORE'S</h1></center>
+                        </div>
+                        <div class="my-3 col-md-12">
+                            <ul class="d-flex flex-wrap justify-content-around list-unstyled">
+                                <li><a href="#" class="btn btn-danger">Home</a></li>
+                                <li><a href="productboot.html" class="btn btn-success">Products</a></li>
+                                <li><a href="aboutboot.html" class="btn btn-info">About Us</a></li>
+                                <li><a href="formboot.html" class="btn btn-warning">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <center><img class="img-fluid" src="add3.gif"></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img class="rounded-circle" src="vasavi.jpeg" alt="images">
+                </div>
+            </div>
+        </header>
+        <hr>
+		<div class="container-fluid">
+            <div class="row">
+                <div class="col-10 mx-5 my-3 col-xs-4 col-xl-5 border border-success rounded">
+                    <center><h1>Product Delivery</h1>
+                    <p> <strong>Shipping:</strong> The product is shipped to a customer-designated address. Retail package delivery is typically done by the public postal system or a retail courier such as FedEx, UPS, DHL, or TNT.</p>
+                </div>
+                <div class="col-10 mx-5 my-3 col-xs-4 col-xl-5 border border-success rounded">
+                    <center><h2>Pay by Credit card</h2></center>
+                    <p>If you pay by credit or charge card online, your transaction will be protected by the Fair Credit Billing Act. Under this law, you can dispute charges under certain circumstances and temporarily withhold payment while the creditor investigates them. In the event that someone uses your credit card without your permission, your liability generally is limited to the first $50 in charges. Some companies guarantee that you won’t be held responsible for any unauthorized charges made to your card online; some cards provide additional warranty, return, and purchase protection benefits.</p>
+                </div>
+            </div>
+		</div>
 	</body>
-</html>	
-<style>
-flex1
-{
-	display:flex;
-}
-div{
-	display:inline-block;
-}
-.flex
-{
-	display:flex;
-	flex-flow:row wrap;
-	justify-content:space-evenly;
-
-}
-.items
-{
-  display: block;
-  padding: 1em;
-}
-body
-{
-	background-color:#80bfff;
-}
-::selection
-{
-	color:pink;
-	background-color:black;
-}
-.flex1 .three
-{
-flex-direction:column;
-}
-header a
-{
-	border:1px solid #80bfff;
-    border-radius:10px;
-    padding:15px ;
-	text-decoration:none;
-	color:green;
-	background-color:pink;
-}
-header a:hover
-{
-	background:yellow;
-}
-.flex1 .i4
-{
-	margin-left:auto;
-}
-.i1
-{
-	position:relative;
-	top:1px;
-	left:200px;
-	width:40%;
-	height:150px;
-}
-.i3
-{
-	position:relative;
-	right:-200px;
-	height:150px;
-	width:35%;
-}
-.flex1 .i2
-{
-	align-self:center;
-}
-
-</style>
+</html>
