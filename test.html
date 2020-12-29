@@ -1,0 +1,27 @@
+<form name="selectionhowmany">
+	<p>
+	<label for="selection">select</label>
+		<select id="selection" name="selected" multiple="multiple">
+			<option selected="selected">deepak</option>
+			<option>hari</option>
+			<option>ajith</option>
+			<option>praki</option>
+			<option>naveen</option>
+		</select></p>
+	<p><input id="btn" type="button" value="how many selected"></p>
+</form>
+<script>
+	function selections(vari){
+		var l=0;
+		for(var i=0;i<vari.option.length;i++)
+		{
+			if(vari.option[i].selected)
+				l++;
+			return l;
+		}
+		
+	}
+	var a=document.getElementById("btn");
+	a.addEventListener("click",function(){
+		alert("you selected"+selections(document.selectionhowmany.selected));});
+</script>
